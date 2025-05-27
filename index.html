@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameep Sadotra - React Front-End Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Sameep Sadotra</div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Sameep Sadotra</span>
+                </h1>
+                <h2 class="hero-subtitle">React Front-End Developer</h2>
+                <p class="hero-description">
+                    Building modern, responsive UIs with precision and performance.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="openResume()">
+                        <i class="fas fa-download"></i>
+                        View Resume
+                    </button>
+                    <button class="btn btn-outline" onclick="openGithub()">
+                        <i class="fas fa-external-link-alt"></i>
+                        View Projects
+                    </button>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/sameep-sadotra" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sameep-sadotra/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sadotrasameep@gmail.com&su=Portfolio%20Inquiry" target="_blank" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">About Me</span>
+            </h2>
+            
+            <div class="about-content">
+                <p>
+                    I'm <span class="highlight">Sameep Sadotra</span>, a final-year B.Tech student in
+                    Computer Science and Engineering at
+                    <span class="highlight-blue">Haldia Institute of Technology</span> with a CGPA of 7.69.
+                </p>
+                
+                <p>
+                    I specialize in creating responsive web interfaces using the
+                    <span class="highlight-blue">MERN stack</span>, focusing on performance optimization and
+                    clean user experience with modern development practices.
+                </p>
+                
+                <p>
+                    With hands-on experience at <span class="highlight-purple">iNeuron.ai</span> and over
+                    <span class="highlight-cyan">600+ coding problems solved</span> in C++, I bring both
+                    theoretical knowledge and practical expertise to Front-End development.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Experience</span>
+            </h2>
+            
+            <div class="experience-card">
+                <div class="experience-icon">
+                    <span>iN</span>
+                </div>
+                <div class="experience-content">
+                    <h3>Front-End Developer Intern</h3>
+                    <p class="company">iNeuron.ai</p>
+                    <div class="experience-meta">
+                        <span><i class="fas fa-calendar"></i> Aug 2023 – Oct 2024</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+                    </div>
+                    <ul class="experience-list">
+                        <li>
+                            <span class="bullet purple"></span>
+                            Engineered an e-commerce platform using the MERN stack with advanced routing and reusable
+                            components, driving a 20% increase in user engagement.
+                        </li>
+                        <li>
+                            <span class="bullet blue"></span>
+                            Collaborated with fellow interns contributing 40-45% to overall development and implementing
+                            intuitive frontend features.
+                        </li>
+                        <li>
+                            <span class="bullet cyan"></span>
+                            Executed comprehensive code reviews and established robust testing workflows, leading to a 30%
+                            improvement in code quality and debugging efficiency.
+                        </li>
+                        <li>
+                            <span class="bullet purple"></span>
+                            Developed real-time order tracking system with WebSocket integration and integrated RESTful APIs
+                            reducing data retrieval latency by 15%.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Featured Projects</span>
+            </h2>
+            
+            <div class="projects-grid">
+                <!-- Cakifyy Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Su1mXxOPuPqEv2EyZBrWBcEZCKzwtx.png" alt="Cakifyy Website">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Online Cake Order Website</h3>
+                        <p>
+                            Modern e-commerce platform 'Cakifyy' featuring clean UI design, responsive navigation, 
+                            shopping cart functionality, and user authentication. Built with MERN stack including 
+                            secure JWT authentication, MongoDB database, and optimized build processes improving 
+                            development efficiency by 30%.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Netlify</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-outline-sm" onclick="openLink('https://github.com/sameep-sadotra/cakifyy')">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                            <button class="btn btn-primary-sm" onclick="openLink('https://cakifyy.netlify.app/')">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gym Website Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-rDt1BgAJIjhTupCKT0nnnhlzgl8UHg.png" alt="TheFitClub Website">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Responsive Gym Website</h3>
+                        <p>
+                            Professional fitness website 'TheFitClub' featuring modern dark theme design, interactive 
+                            navigation, promotional offers, and responsive layout. Includes dynamic animations and 
+                            engaging call-to-action elements that improved user retention by 15%.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn btn-outline-sm" onclick="openLink('https://github.com/sameep-sadotra/TheFitClub')">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                            <button class="btn btn-primary-sm" onclick="openLink('https://thefitclu.netlify.app/')">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Skills & Technologies</span>
+            </h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Technologies</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>React.js</span>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>Big Data</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>Visual Studio Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>Netlify</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Coursework</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>Object Oriented Programming</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>DBMS (SQL)</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-bullet"></span>
+                            <span>Data Structures & Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Achievements</span>
+            </h2>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon yellow">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>AIR 6 – Logitech Coding World Cup</h3>
+                        <p>50,000+ participants</p>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon purple">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>AIR 122 – Amar Ujala Coding Contest</h3>
+                        <p>National level competition</p>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon blue">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>AIR 205 – Unstop Challenge</h3>
+                        <p>Competitive programming</p>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon green">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>600+ DSA Problems Solved</h3>
+                        <p>C++</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="gradient-text">Let's Work Together</span>
+            </h2>
+            
+            <p class="contact-description">
+                Ready to bring your ideas to life? Let's discuss how we can create something amazing together.
+            </p>
+
+            <div class="contact-grid">
+                <div class="contact-card" onclick="openGmail()">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-label">Email</p>
+                        <p class="contact-value">sadotrasameep@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-card" onclick="openPhone()">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-label">Phone</p>
+                        <p class="contact-value">+91-6006982438</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-label">Location</p>
+                        <p class="contact-value">Kolkata, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary btn-large" onclick="openGmail()">
+                <i class="fas fa-envelope"></i>
+                Get In Touch
+            </button>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Sameep Sadotra. All rights reserved.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
