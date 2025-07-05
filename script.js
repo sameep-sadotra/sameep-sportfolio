@@ -37,7 +37,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Function to open resume
 function openResume() {
-    window.open('https://github.com/sameep-sadotra', '_blank');
+    window.open('https://drive.google.com/file/d/19GGCwIAoI7EgRZMCH7HKGCqniK1OCer8/view', '_blank');
 }
 
 // Function to open GitHub
