@@ -37,7 +37,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Function to open resume
 function openResume() {
-    window.open('https://drive.google.com/file/d/1ou9v8v-sDT4vhoMkfpSGrPGt8_yE2Fzn/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/19GGCwIAoI7EgRZMCH7HKGCqniK1OCer8/view?usp=sharing', '_blank');
 }
 
 // Function to open GitHub
